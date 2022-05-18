@@ -8,7 +8,10 @@ Must have C installed.
 
 Instructions: Use linux terminal commands to compile and run file
 
-> make
-> ./environmentServer &
-> ./robotClient &  (x20 for 20 robots)
-> ./stop   (to exit server and clients)
+>make
+
+>./environmentServer &
+
+>./robotClient &  (x20 for 20 robots)
+
+>./stop   (to exit server and clients)
